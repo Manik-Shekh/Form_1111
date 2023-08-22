@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Design For the pc*/
+
+@media screen and (min-width:480px){
+
+    body{
+        width: 100%;
+        height: 100vh;
+        background: url(../img/road-1072821_1280.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .Outer_div{
+        width: 700px;
+        background-color: #eee;
+        margin: 50px auto;
+    }
+    .inner_div{
+        width: 100%;
+        padding: 20px;
+    }
+    .item_container{
+        text-align: center;
+    }
+    .item_container h1{
+        background: rgb(226, 81, 149);
+        color: white;
+        padding: 10px;
+        font-size: 40px;
+    }
+    .item_container p{
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        margin: 0px auto;
+        justify-content: space-around;
+    }
+    .ST_Name{
+        display: block;
+    }
+    .second {
+        margin-top: 53px;
+    }
+    .first h2{
+        margin-bottom: 25px;
+    }
+    .third{
+        margin-top: 53px;
+    }
+    .Main_container{
+        margin-top: 50px;
+    }
+    .input_design{
+        padding: 8px;
+        margin-bottom: 6px;
+        outline: none;
+        border: 1px solid rgb(119, 44, 44);
+        background-color: transparent;
+        border-radius: 5px;
+    }
+    .input_design:focus{
+        border:2px solid rgb(226, 81, 149);
+    }
+    .container1{
+        width: 100%;
+        display: flex;
+        margin-top: 25px;
+    }
+     .first1{
+        flex-basis: 50%;
+     }
+     .second1{
+        flex-basis: 50%;
+     }
+     .second1 input{
+        padding: 8px;
+        margin: 20px 0px 0px 0px;
+     }
+     .first1 input{
+        padding: 8px;
+        margin: 10px 0px 0px 0px;
+        outline: none;
+        border: 1px solid rgb(119, 44, 44);
+        border-radius: 5px;
+        background: transparent;
+    
+     }
+    .container2 label{
+        display: block;
+        margin: 6px 0px;
+    }
+    .container2 input{
+        width: 100%;
+        outline: none;
+        background: transparent;
+        border: 1px solid rgb(119, 44, 44);
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .container2 h2{
+        margin: 20px 0px;
+    }
+
+    .container3{
+        display: flex;
+        margin: 20px auto;
+    }
+    .box_1 label{
+        display: block;
+        margin-top: 10px;
+
+    }
+    .box_1{
+        flex-basis: 50%;
+    }
+    .box_1 input{
+        width: 99%;
+        padding: 10px;
+        outline: none;
+        border:1px solid rgb(119, 44, 44) ;
+        background: transparent;
+        border-radius: 5px;
+        margin: 0px 0px 5px 0px;
+    }
+    .box_2 label{
+        display: block;
+        margin: 5px 0px;
+    }
+    .box_2 input{
+        width: 100%;
+        padding: 10px;
+        outline: none;
+        background: transparent;
+        border: 1px solid rgb(119, 44, 44);
+        border-radius: 5px;
+    }
+    .text_1{
+        margin: 20px 0px;
+    }
+    .container4{
+        display: flex;
+        margin: 20px auto;
+
+    }
+    .box_3{
+        flex-basis: 50%;
+    }
+    .box_3 h3{
+        margin: 7px 0px;
+
+    }
+    .box_3 label{
+        display: block;
+        margin: 5px 0px;
+        
+    }
+    .box_3 input{
+        width:99%;
+        padding: 10px;
+        outline: none;
+        background: transparent;
+        border: 1px solid rgb(119, 44, 44);
+        border-radius: 5px;
+        
+    }
+    .text_2 h3{
+        margin: 8px 0px;
+
+    }
+    .text_2 input{
+        width:60%;
+        padding: 10px;
+        outline: none;
+        background: transparent;
+        border: 1px solid rgb(119, 44, 44);
+        border-radius: 5px;
+
+    }
+    .text_3 h3{
+        margin: 10px 0px;
+
+    }
+    .text_3 textarea{
+        width: 100%;
+        padding: 10px;
+        outline: none;
+        background: transparent;
+        border: 1px solid rgb(119, 44, 44);
+        border-radius: 5px;
+
+    }
+    .submit_1{
+        text-align: center;
+    }
+    .submit_1 button{
+        margin: 40px 0px;
+        padding: 10px 35px;
+        outline: none;
+        border: none;
+        background: rgb(211, 30, 193);
+        color: white;
+        font-weight: 500;
+        border-radius: 3px;
+        font-size: 18px;
+    }
+
+
+    .submit_1 button:hover{
+        padding: 20px 45px;
+        transition: 0.4s;
+    }
+
+
+}
+/*Design For the pc End Here*/
+
+
+
+
+
+/*Design For the Mobile*/
+@media screen and (max-width:480px){
+    .Outer_div{
+        width: 100%;
+    }
+    .item_container{
+        text-align: center;
+
+    }
+    .Main_container{
+        padding: 10px;
+    }
+    .item_container h1{
+        background: rgb(226, 81, 149);
+        padding: 10px;
+        color: white;
+        margin-bottom: 10px;
+
+    }
+    .item_container p{
+        margin: 20px 0px;
+    }
+    .ST_Name{
+        display: block;
+    }
+    .first_h3{
+        margin: 20px 0px;
+    }
+    .input_design{
+        width: 100%;
+        padding: 10px;
+        margin:5px 0px;
+        outline: none;
+        border: 1px solid rgb(119, 44, 44);
+        border-radius: 5px;
+    }
+    .first1 label{
+        margin: 10px 0px;
+    }
+    .first1 input{
+        width: 100%;
+        padding: 10px;
+        outline: none;
+        background: transparent;
+        border: 1px solid rgb(119, 44, 44);
+        border-radius: 5px;
+    }
+    .second1 label{
+        margin: 10px 0px;
+    }
+
+    .container2 label{
+        display: block;
+        margin: 6px 0px;
+    }
+    .container2 input{
+        width: 100%;
+        outline: none;
+        background: transparent;
+        border: 1px solid rgb(119, 44, 44);
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .container2 h2{
+        margin: 20px 0px;
+    }
+    .box_1 label{
+        display: block;
+        margin: 5px 0px;
+
+    }
+    .box_1 input{
+        width: 100%;
+        padding: 10px;
+        outline: none;
+        background: transparent;
+        border: 1px solid rgb(119, 44, 44);
+        border-radius: 5px;
+    }
+    .box_2 label{
+        display: block;
+        margin: 5px 0px;
+    }
+    .box_2 input{
+        width: 100%;
+        padding: 10px;
+        outline: none;
+        background: transparent;
+        border: 1px solid rgb(119, 44, 44);
+        border-radius: 5px;
+    }
+    .text_1{
+        margin: 20px 0px;
+    }
+    .box_3 h3{
+        margin: 7px 0px;
+
+    }
+    .box_3 label{
+        display: block;
+        margin: 5px 0px;
+        
+    }
+    .box_3 input{
+        width:99%;
+        padding: 10px;
+        outline: none;
+        background: transparent;
+        border: 1px solid rgb(119, 44, 44);
+        border-radius: 5px;
+        
+    }
+    .text_2 h3{
+        margin: 8px 0px;
+
+    }
+    .text_2 input{
+        width:100%;
+        padding: 10px;
+        outline: none;
+        background: transparent;
+        border: 1px solid rgb(119, 44, 44);
+        border-radius: 5px;
+
+    }
+    .text_3 h3{
+        margin: 10px 0px;
+
+    }
+    .text_3 textarea{
+        width: 100%;
+        padding: 10px;
+        outline: none;
+        background: transparent;
+        border: 1px solid rgb(119, 44, 44);
+        border-radius: 5px;
+
+    }
+    .submit_1{
+        text-align: center;
+    }
+    .submit_1 button{
+        width: 100%;
+        margin: 40px 0px;
+        padding: 10px;
+        outline: none;
+        border: none;
+        background: rgb(211, 30, 193);
+        color: white;
+        font-weight: 500;
+        border-radius: 3px;
+        font-size: 18px;
+
+    }
+
+    
+}
